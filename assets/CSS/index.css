@@ -132,6 +132,20 @@ input[type=text],input[type=email],#suggestion{
 .form-control::-webkit-input-placeholder{
   color: #fff;
 }
+#black1,#black2,#black3,#black4,#black5,#black6,#black7,#black8{
+  display: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  background-color: cornsilk;
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50%;
+  font-family: 'Kaushan Script', cursive;
+}
 #enter{
   width: 30%;
   margin-left: 18%;
@@ -163,6 +177,13 @@ button{
     padding-bottom: 30px;
     margin-bottom: 20px;
   }
+  #black1,#black2,#black3,#black4,#black5,#black6,#black7,#black8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+  }
 }
 @media only screen and (max-width: 425px){
   .col-md-3 img{
@@ -191,6 +212,14 @@ button{
     margin-left: 4%;
     width: 84%;
   }
+  #black1,#black2,#black3,#black4,#black5,#black6,#black7,#black8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+    font-size: 20px;
+  }
 }
 @media only screen and (min-width: 825px){
   .col-md-3 img{
@@ -210,5 +239,13 @@ button{
   #portfolio{
     margin-left:6%;
     margin-right: 10%; 
+  }
+  #black1,#black2,#black3,#black4,#black5,#black6,#black7,#black8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+    font-size: 26px;
   }
 }
