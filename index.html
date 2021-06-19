@@ -4,22 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/CSS/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
       rel="stylesheet"
-      href="assets/CSS/bootstrap-3.4.1-dist/css/bootstrap.css"
     />
     <link rel="stylesheet" href="assets/CSS/index.css" />
     <title>Delani Studio</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <img src="/assets/IMAGE/logo.png" alt="logo" class="center" />
+    <div class="landing">
+      <img src="/assets/IMAGE/logo.png" alt="logos" id="logo" />
       <h1>WELCOME</h1>
-      <h2>TO DELANI STUDIO</h2>
-      <h3>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h3>
+      <h1>TO DELANI STUDIO</h1>
+      <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+      <p></p>
+      <div class="mouse-click"></div>
+      <a href="#about-us-page"
+        ><img src="/assets/IMAGE/mouse_click.png" alt="mouse"
+      /></a>
     </div>
-    <div class="container-one">
-      <h1>ABOUT US</h1>
+    <div class="container about" id="about-us-page">
+      <h2 id="about-us-page">ABOUT US</h2>
       <p>
         When you work with us, you are part of a team of comitted collaborators.
         All aspects of our software development process are intergrated,
@@ -35,19 +42,22 @@
       </p>
       <p>Then we help translate them into effective and elegant solutions</p>
     </div>
-    <div class="container-two">
-      <h1>SERVICES</h1>
-      <p>
-        Before we sign a contract or write a line of code our team will spend
-        the necessary time needed to understand your product vision
-      </p>
-      <p>
-        The outcome of this session is proposal or high-level statement of work
-      </p>
-      <p>
-        Based on your requirements, we can provide a complete offering or just
-        the pieces you need
-      </p>
+    <div class="services">
+      <div id="servicesoverlay">
+        <h2>SERVICES</h2>
+        <p>
+          Before we sign a contract or write a line of code our team will spend
+          the necessary time needed to understand your product vision
+        </p>
+        <p>
+          The outcome of this session is proposal or high-level statement of
+          work
+        </p>
+        <p>
+          Based on your requirements, we can provide a complete offering or just
+          the pieces you need
+        </p>
+      </div>
     </div>
     <div class="container what-we-do">
       <h2 class="headings">WHAT WE DO</h2>
@@ -84,10 +94,10 @@
               development and pair programming.
             </p>
           </div>
-        </div>
-        <div id="development-image">
-          <img src="/assets/IMAGE/dev_icon.png" alt="development" />
-          <p>DEVELOPMENT</p>
+          <div id="development-image">
+            <img src="/assets/IMAGE/dev_icon.png" alt="development" />
+            <p>DEVELOPMENT</p>
+          </div>
         </div>
         <div class="col-md-4">
           <div id="product">
@@ -105,6 +115,37 @@
           <div id="product-image">
             <img src="/assets/IMAGE/product_icon.png" alt="product" />
             <p>PRODUCT MANAGEMENT</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <h2>PORTFOLIO</h2>
+      <div class="row" id="portfolio">
+        <div class="col-md-3" id="work1">
+          <img src="/assets/IMAGE/work1.jpg" alt="work1" />
+        </div>
+        <div class="col-md-3" id="work1">
+          <img src="/assets/IMAGE/work2.jpg" alt="work2" />
+        </div>
+        <div class="col-md-3" id="work3">
+          <img src="/assets/IMAGE/work3.jpg" alt="work3" />
+        </div>
+        <div class="col-md-3" id="work4">
+          <img src="/assets/IMAGE/work4.jpg" alt="work4" />
+        </div>
+        <div class="row" id="portfolio">
+          <div class="col-md-3" id="work5">
+            <img src="/assets/IMAGE/work5.jpg" alt="work5" />
+          </div>
+          <div class="col-md-3" id="work6">
+            <img src="/assets/IMAGE/work6.jpg" alt="work6" />
+          </div>
+          <div class="col-md-3" id="work7">
+            <img src="/assets/IMAGE/work7.jpg" alt="work7" />
+          </div>
+          <div class="col-md-3" id="work8">
+            <img src="/assets/IMAGE/work8.jpg" alt="work8" />
           </div>
         </div>
       </div>
