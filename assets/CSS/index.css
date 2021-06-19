@@ -102,3 +102,113 @@
   font-weight: 600;
   font-family: 'Kaushan Script' cursive;
 }
+footer{
+  text-align: center;
+  padding-top: 30px;
+}
+footer p{
+  font-family: 'Kaushan Script', cursive;
+}
+.contact{
+  background-image: url(/assets/IMAGE/c_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+}
+.contact h2{
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Kaushan Script', cursive;
+}
+input[type=text],input[type=email],#suggestion{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
+}
+.form-control::-webkit-input-placeholder{
+  color: #fff;
+}
+#enter{
+  width: 30%;
+  margin-left: 18%;
+  margin-right: 30px;
+}
+#enter1{
+  width: 30%;
+}
+#suggestion{
+  margin-left: 20%;
+  width: 60%;
+}
+button{
+  margin-left: 20%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 755px){
+  .col-md-3 img{
+    width:100%;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:8%;
+    margin-right: 16%; 
+  }
+  button{
+    margin-left: 2%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 425px){
+  .col-md-3 img{
+    width:100% ;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:8%;
+    margin-right: 16%; 
+  }
+  button{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+  #enter{
+    width: 84%;
+    margin-left: 4%;
+    padding-bottom: 10px;
+  }
+  #enter1{
+    width: 100%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+  }
+  #suggestion{
+    margin-left: 4%;
+    width: 84%;
+  }
+}
+@media only screen and (min-width: 825px){
+  .col-md-3 img{
+    width: 400px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left: 10%;
+    margin-right: 10%; 
+  }
+}
+@media only screen and (min-width: 625px){
+  .col-md-3 img{
+    width: 400px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:6%;
+    margin-right: 10%; 
+  }
+}
