@@ -11,6 +11,7 @@
 .landing,h1{
   padding: 2px;
   margin: 5px;
+  font-family: 'Kaushan Script', cursive;
 }
 .landing,p{
   padding: 2px;
@@ -44,6 +45,7 @@
   text-align: center;
   padding-bottom: 30px;
   padding-top: 40px;
+  font-family: 'Kaushan Script', cursive;
 }
 .services{
   background-image: url(/assets/IMAGE/s_image.jpg);
@@ -53,6 +55,7 @@
   font-size: 18px;
   color: white;
   text-align: center;
+  font-family: 'Kaushan Script', cursive;
 }
 #servicesoverlay{
   background-color: rgba(0,0,0,0,4);
@@ -62,9 +65,11 @@
 .what-we-do{
   text-align: center;
   padding-top: 40px;
+  font-family: 'Kaushan Script', cursive;
 }
 .what-we-do .headings{
   padding-bottom: 38px;
+  font-family: 'Kaushan Script', cursive;
 }
 #porfolio{
   display: flex;
@@ -72,6 +77,7 @@
   align-items: center;
   margin-left: 18%;
   margin-right: 16%;
+  font-family: 'Kaushan Script', cursive;
 }
 .col-md-3 img{
   max-width: 100%;
@@ -80,15 +86,19 @@
 .portfolio h2{
   text-align: center;
   padding-top: 40px;
+  font-family: 'Kaushan Script', cursive;
 }
 #product, #development, #design{
   display: none;
   font-size: 16px;
+  font-family: 'Kaushan Script', cursive;
 }
 .title{
   padding: 6px;
+  font-family: 'Kaushan Script', cursive;
 }
 #product .title, #development .title, #design ,title{
   font-size: 20px;
   font-weight: 600;
+  font-family: 'Kaushan Script' cursive;
 }
