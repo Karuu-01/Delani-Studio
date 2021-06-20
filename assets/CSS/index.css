@@ -1,5 +1,5 @@
 .landing{
-  background-image: url(/assets/IMAGE/h_img.jpg);
+  background-image: url("../IMAGE/h_img.jpg");
   background-repeat: no-repeat;
   color: white;
   text-align: center;
@@ -36,7 +36,7 @@
   font-family: 'Kaushan Script', cursive;
 }
 .services{
-  background-image: url(/assets/IMAGE/s_image.jpg);
+  background-image: url("../IMAGE/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -100,7 +100,7 @@ footer p{
   font-family: 'Kaushan Script', cursive;
 }
 .contact{
-  background-image: url(/assets/IMAGE/c_image.jpg);
+  background-image: url(../IMAGE/c_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
